@@ -1,0 +1,73 @@
+.ui-listview.jqm-swipeable > li {
+    display: table;
+    width: 100%;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+.ui-listview.jqm-swipeable.jqm-swipeable-clickable > li > a.ui-btn {
+    overflow: initial;
+    margin-right: 0;
+    -webkit-transition: -webkit-transform 200ms ease-out;
+    -moz-transition: -moz-transform 200ms ease-out;
+    -o-transition: -o-transform 200ms ease-out;
+    transition: transform 200ms ease-out;
+}
+.ui-listview.jqm-swipeable > li span {
+    z-index: auto;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    height: 43px;
+    width: 0;
+    float: right;
+    display: table-cell;
+    -webkit-transition: width 180ms ease-out;
+    -moz-transition: width 180ms ease-out;
+    -o-transition: width 180ms ease-out;
+    transition: width 180ms ease-out;
+}
+.ui-listview.jqm-swipeable > li span.show {
+    width: 70px;
+    cursor: pointer;
+}
+.ui-listview.jqm-swipeable > li p.btn {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1em;
+    text-shadow: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-rendering: optimizeLegibility;
+    text-overflow: clip;
+}
+.ui-listview.jqm-swipeable > li span.delete {
+    background-color: #FF3B30;
+}
+.ui-listview.jqm-swipeable > li span.flag {
+    background-color: #FF9500;
+}
+.ui-listview.jqm-swipeable > li span.more {
+    background-color: #D6CEC3;
+}
+.ui-listview.jqm-swipeable.jqm-swipeable-clickable > li .ui-btn span.flagged {
+    padding: 0;
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto 35px auto auto;
+    background-image: url(http://discovercoronadwp.com/img/yellowflag.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ui-listview.jqm-swipeable.jqm-swipeable-clickable > li .ui-btn.ui-btn-active {
+    background-color: #f6f6f6;
+    border-color: #ddd;
+    color: #333;
+    text-shadow: 0 1px 0 #f3f3f3;
+}
+</style> <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"> <style>
